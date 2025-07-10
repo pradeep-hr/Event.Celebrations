@@ -1,0 +1,150 @@
+/* Reset & Base */
+body {
+  background-color: rgb(246, 246, 246);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Header image */
+#img1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Button Styles */
+.bttn1,
+.bttn2 {
+  border-radius: 10%;
+  padding: 6px 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bttn1 {
+  background-color: rgb(34, 185, 244) !important;
+  color: white !important;
+  /* border: none !important; */
+  font-weight: bold;
+  padding: 6px 20px;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.bttn1:hover {
+  background-color: rgb(247, 85, 142) !important;
+  color: white !important;
+}
+
+.bttn2 {
+  background-color: rgb(247, 85, 142) !important;
+  color: white !important;
+  /* border: none !important; */
+  font-weight: bold;
+  padding: 6px 20px;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.bttn2:hover {
+  background-color: rgb(34, 185, 244) !important;
+  color: white !important;
+}
+
+
+/* Carousel */
+.carousel-inner img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+/* Card Styles */
+.card_bday1,
+.card_bday2,
+.card_bday3,
+.card_bday4,
+.card_bday5,
+.card_bday6 {
+  background-color: rgb(88, 224, 88);
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card_bday1:hover,
+.card_bday2:hover,
+.card_bday3:hover,
+.card_bday4:hover,
+.card_bday5:hover,
+.card_bday6:hover {
+  transform: scale(1.05);
+}
+
+/* Login Button */
+.login {
+  background-color: skyblue;
+  border-radius: 10px;
+  border: none;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  font-size: 14px;
+}
+
+footer .foot {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+footer .foot a img {
+  width: 30px;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+footer .foot a img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  #img1 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .login {
+    margin-left: 0;
+  }
+}
